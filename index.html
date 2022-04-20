@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  -->
     <title>李彦宏</title>
     <style>
         img {
@@ -14,8 +15,19 @@
 </head>
 
 <body>
-    <h1>
-        李彦宏
+
+    <nav>
+        <ol>
+            <li><a href="#li">个人简介</a></li>
+            <li><a href="#events">重要事件</a></li>
+            <li><a href="#awards">成就和荣誉</a></li>
+            <li><a href="#reference">参考书目</a></li>
+            <li><a href="#img">生活照</a></li>
+            <li><a href="#experience">生平</a></li>
+        </ol>
+    </nav>
+    <h1 id="li">
+        李彦宏（个人简介）
     </h1>
     <p>
         李彦宏（1968年11月17日－），山西阳泉人，中国企业家。百度公司的创建者，现任董事长兼首席执行官以及全国工商联副主席。研究生学历。2015年胡润全球富豪榜位列第47名，身价180亿美元。[4]李彦宏的资产基本都来自百分之二十点八的百度控股，这些股票直接由李彦宏及其妻子马东敏所有，并通过注册地维珍群岛的
@@ -33,7 +45,7 @@
         <li>1997年，李彦宏离开华尔街，前往硅谷的搜索引擎公司Infoseek任职工程师。</li>
         <li>1999年，Infoseek被迪士尼收购，再次调整战略。</li>
     </ul>
-    <h2 id="rewards">
+    <h2 id="awards">
         成就和荣誉
     </h2>
     <ol>
@@ -47,7 +59,7 @@
         <li>2006年12月10日，当选美国《商业周刊》2006年全球“最佳商业领袖”。</li>
         <li>2009年12月8日，获2009年度华人经济领袖奖。</li>
     </ol>
-    <h2>
+    <h2 id="reference">
         参考书目
     </h2>
 
@@ -73,7 +85,7 @@
             </tr>
         </tbody>
     </table>
-    <h2>生活照</h2>
+    <h2 id="img">生活照</h2>
 
 
     <div><img width="400" src="images/1.jpg" alt="图一"></div>
@@ -81,11 +93,13 @@
     <!-- html中设置宽高不用加px，因为这不是css -->
     <!-- 将ul中的li换成div以后，要删掉ul，否则照片无法贴视口边 -->
 
-    <h2>生平</h2>
+    <h2 id="experience">生平</h2>
     <p>
         李彦宏（1968年11月17日－），山西阳泉人，中国企业家。百度公司的创建者，
         现任董事长兼首席执行官以及全国工商联副主席。研究生学历。2015年胡润全球富豪榜位列第47名，身价180亿美元
     </p>
+    <div style="height:900px;"></div>
+    <!-- 最后设置一个div可以让超链接点到最后一个时，效果可以顶上去 -->
 </body>
 
 </html>
